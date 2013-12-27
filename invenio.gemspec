@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
     invenio.gemspec
     lib/invenio.rb
     lib/invenio/version.rb
+    test/test_helper.rb
   )
 
   spec.test_files    = spec.files.grep(%r{^test/})
