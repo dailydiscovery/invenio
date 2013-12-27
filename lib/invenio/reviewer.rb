@@ -23,6 +23,7 @@ module Invenio
     end
 
     def review
+      pull_requests.map(&:review)
     end
   end
 end
