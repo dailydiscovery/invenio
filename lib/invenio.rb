@@ -1,5 +1,8 @@
 require "invenio/version"
 
 module Invenio
-  # Your code goes here...
+
+  def discover
+  end
+  module_function :discover
 end
