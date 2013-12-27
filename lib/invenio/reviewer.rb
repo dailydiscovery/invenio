@@ -15,6 +15,11 @@ module Invenio
     end
 
     def fetch
+      client.pull_requests.each do |pull_request|
+        options = {}
+
+        pull_requests << PullRequest.new(options)
+      end
     end
 
     def review
