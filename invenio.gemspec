@@ -26,6 +26,8 @@ Gem::Specification.new do |spec|
 
   spec.test_files    = spec.files.grep(%r{^test/})
 
+  spec.add_dependency "octokit", "~> 2.7.0"
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
