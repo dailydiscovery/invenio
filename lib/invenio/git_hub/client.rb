@@ -1,3 +1,5 @@
+require "octokit"
+
 module Invenio
   module GitHub
     class Client
