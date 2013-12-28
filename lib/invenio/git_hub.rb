@@ -5,6 +5,6 @@ module Invenio
 
     LOGIN = "expiscor"
 
-    ACCESS_TOKEN = ENV["EXPISCOR_ACCESS_TOKEN"]
+    ACCESS_TOKEN = ENV["INVENIO_ACCESS_TOKEN"]
   end
 end
