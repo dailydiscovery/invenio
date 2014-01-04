@@ -3,8 +3,8 @@ module Invenio
 
     REPO = "dailydiscovery/dailydiscovery"
 
-    LOGIN = "expiscor"
+    LOGIN = ENV["INVENIO_GITHUB_LOGIN"]
 
-    ACCESS_TOKEN = ENV["INVENIO_ACCESS_TOKEN"]
+    ACCESS_TOKEN = ENV["INVENIO_GITHUB_ACCESS_TOKEN"]
   end
 end
