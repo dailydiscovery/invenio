@@ -14,13 +14,19 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = %w(
+    .ruby-version
     Gemfile
     LICENSE.txt
     README.md
     Rakefile
     invenio.gemspec
     lib/invenio.rb
+    lib/invenio/git_hub.rb
+    lib/invenio/git_hub/client.rb
+    lib/invenio/pull_request.rb
+    lib/invenio/reviewer.rb
     lib/invenio/version.rb
+    test/invenio/pull_request_test.rb
     test/test_helper.rb
   )
 

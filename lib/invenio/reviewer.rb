@@ -18,6 +18,9 @@ module Invenio
       client.pull_requests.each do |pull_request|
         options = {}
 
+        options[:user] = pull_request.user.login
+        options[:number] = pull_request.number
+
         pull_requests << PullRequest.new(options)
       end
     end
